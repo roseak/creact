@@ -1,4 +1,2 @@
-# Cract
-## Crud + React
-# creact
-# creact
+# Creact
+## CRUD + React Tutorial
