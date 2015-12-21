@@ -2,8 +2,10 @@ var Main = React.createClass({
   render() {
     return (
       <div>
-        <Header />
-        <Body />
+        <div className='container'>
+          <Header />
+          <Body />
+        </div>
       </div>
     )
   }

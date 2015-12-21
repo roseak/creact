@@ -15,10 +15,14 @@ var NewSkills = React.createClass ({
   render() {
     return (
       <div>
-        <input ref='name' placeholder='Enter name of skill' />
-        <input ref='details' placeholder='Details' />
-        <button onClick={this.handleClick}>Submit</button>
-      </div>
+        <form>
+          <div className='form-group'>
+            <input className='form-control' ref='name' placeholder='Enter name of skill' />
+            <input className='form-control' ref='details' placeholder='Details' />
+            <button className='btn btn-primary' onClick={this.handleClick}>Submit</button>
+          </div>
+        </form>
+    </div>
     )
   }
 });
